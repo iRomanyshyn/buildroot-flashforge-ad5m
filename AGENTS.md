@@ -22,7 +22,7 @@ Historical AD5M Buildroot reference:
 
 Sibling Klipper Mod repository:
 
-- ../flashforge_ad5m_klipper_mod
+- ../ad5m_enhanced_mod
 
 Project coordination repository:
 
@@ -32,7 +32,7 @@ Before substantial project work, read:
 
 - ../ad5m-project/PROJECT.md
 - the active task under ../ad5m-project/tasks/, when one exists
-- ../flashforge_ad5m_klipper_mod/AGENTS.md when the task affects integration
+- ../ad5m_enhanced_mod/AGENTS.md when the task affects integration
 
 ## Current base
 
@@ -57,7 +57,7 @@ Buildroot base itself, including:
 - changes that are not inherently specific to the Klipper Mod integration
 
 Printer-specific integration should normally remain in the sibling
-flashforge_ad5m_klipper_mod repository, especially:
+ad5m_enhanced_mod repository, especially:
 
 - printer configuration
 - Klipper macros
@@ -93,7 +93,7 @@ Do not treat third-party Buildroot forks as authoritative upstreams.
 ## Cross-repository changes
 
 If a task requires changes to both this repository and
-flashforge_ad5m_klipper_mod:
+ad5m_enhanced_mod:
 
 - inspect both repositories before modifying either
 - keep generic Buildroot changes here
